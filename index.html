@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/jsbarcode.min.js"></script><!--Libreria para el codigo de barras del js-->
+    <title>TIENDA DE PRODUCTOS DEL AUTOMOTOR</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="tituloPrincipal">TIENDA DE PRODUCTOS DE COMPETICIÓN</h1>
+    </header>
+
+    <main>
+        <input type="text" id="buscador" placeholder="Buscar producto">
+
+        <label><input class="input" type="checkbox" id="programables" value="programables">Programables</label>
+        <label><input class="input" type="checkbox" id="repuestos" value="repuestos">Repuestos</label>
+        <label><input class="input" type="checkbox" id="autopartes" value="autopartes">Autopartes</label>
+
+        <div id="carrito"></div>
+        <button id="finalizarCompra">Pagar ahora</button>
+        <button id="vaciarCarrito">Vaciar carrito</button>
+        <div id="total">Precio total: $0.00</div>
+        <button id="generarTicket">Generar Ticket de compra</button>
+
+
+        <div id="contenedorProductos">
+            <!-- caja estática  (dinamica en js)-->
+        </div>
+
+    </main>
+
+    <footer>
+        <h6>Todos los derechos reservados ©</h6>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

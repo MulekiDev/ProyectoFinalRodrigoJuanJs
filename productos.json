@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "FuelTech Ft 350",
+        "categoria": "programables",
+        "precio": 320000,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_636496-MLA49497619542_032022-O.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "FuelTech Ft 450",
+        "categoria": "programables",
+        "precio": 410000,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_641831-MLA51555914462_092022-O.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "FuelTech Ft 500",
+        "categoria": "programables",
+        "precio": 550000,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_882597-MLA45469526094_042021-O.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "FuelTech Ft 500 lite",
+        "categoria": "programables",
+        "precio": 515000,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_896936-MLA31115090384_062019-O.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "Cableado FuelTech Ft 500",
+        "categoria": "repuestos",
+        "precio": 23000,
+        "img": "https://www.nakatech.com.ar/wp-content/uploads/2018/08/Cableado-FT500.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Corrector de levas Volkswagen Gol AP",
+        "categoria": "autopartes",
+        "precio": 29500,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_832602-MLA47958496147_102021-O.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "Volante FTR FuelTech liviano",
+        "categoria": "autopartes",
+        "precio": 78000,
+        "img": "https://fueltechargentina.com.ar/Image/0/500_500-FTRA.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Filtro de aire KyN cónico alto",
+        "categoria": "autopartes",
+        "precio": 40999,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_717500-MLA48452428126_122021-O.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "Bielas forjadas FTX 144x20 Volkswagen Gol AP",
+        "categoria": "repuestos",
+        "precio": 284999,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_617232-MLA40243204149_122019-O.webp"
+    }
+]

@@ -1,0 +1,114 @@
+* {
+    margin: 4px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkkhaki;
+}
+
+.tituloPrincipal {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.tituloCards {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.anuncio {
+    text-align: right;
+}
+
+.labelHTML {
+    padding: 2px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btnFinalizarCompra {
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.btnVaciarCarrito {
+    padding: 4px;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.totalCarrito {
+    font-size: 1.5rem;
+    font-weight: 800;
+    justify-content: right;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjetaProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.textoCard {
+    font-size: 1.2rem;
+}
+
+.imagen {
+    width: 40vw;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comprar {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 550;
+}
+
+#carrito {
+    padding-left: 10px;
+    overflow-y: scroll;
+    width: 50%;
+    height: 35vh;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+#buscador {
+    height: 1.8rem;
+    background-color: lightgrey;
+}
+
+#total {
+    display: inline-block;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: flex;
+}
+
+#contenedorProducto {
+    display: flex;
+}
