@@ -14,8 +14,8 @@ function cargarProductos() {
       renderizarTarjetas(productos);
     }
   };
-  xhr.open('GET', 'productos.json', true);
-  xhr.send();
+  xhr.open('GET', 'productos.json', true); 
+  xhr.send(); 
 }
 
 //agrego eventos a los elementos de categoría
